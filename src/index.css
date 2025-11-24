@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+
+:root {
+  --primary-color: #1d8f6a;
+  --navbar-bg-color: #272727;
+  --yellow-light-100: #e5c466;
+  --green-light-100: #e9f0ed;
+}
+
+body {
+  font-family: "Golos Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@layer utilities {
+  .font-outline-2 {
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.2);
+    paint-order: stroke fill;
+  }
+}
