@@ -1,0 +1,15 @@
+# Models Directory
+
+This directory will contain database models/schemas.
+
+## Structure
+
+```
+models/
+├── user.model.ts
+├── hotel.model.ts
+├── booking.model.ts
+└── room.model.ts
+```
+
+Models are intentionally not created yet as per requirements.

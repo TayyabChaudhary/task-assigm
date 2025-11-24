@@ -1,0 +1,14 @@
+# Hooks Directory
+
+This directory will contain custom hooks/helpers for database operations.
+
+## Structure
+
+```
+hooks/
+├── useDatabase.ts
+├── usePagination.ts
+└── useValidation.ts
+```
+
+Custom hooks for reusable database and validation logic.

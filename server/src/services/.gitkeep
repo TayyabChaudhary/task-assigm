@@ -1,0 +1,15 @@
+# Services Directory
+
+This directory will contain business logic services.
+
+## Structure
+
+```
+services/
+├── user.service.ts
+├── hotel.service.ts
+├── booking.service.ts
+└── email.service.ts
+```
+
+Services layer for separating business logic from controllers.
